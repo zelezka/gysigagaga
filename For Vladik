@@ -9,6 +9,7 @@ int main()
 	printf("Vvedite koordinati y\n");
 	scanf("%d", &y);
 	d = sqrt((x^2)+(y^2));
-	printf("%d");
-	scanf("%d");
+	printf("%d, d");
+	scanf("%d, &d");
 	return 0;
+	}
