@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include "stdafx.h"
+#include <math.h>
+int main()
+{
+	int d, x, y;
+	printf("Vvedite koordinati x\n");
+	scanf("%d", &x);
+	printf("Vvedite koordinati y\n");
+	scanf("%d", &y);
+	d = sqrt((x^2)+(y^2));
+	printf("%d");
+	scanf("%d");
+	return 0;
