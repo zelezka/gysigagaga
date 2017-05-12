@@ -3,13 +3,22 @@
 #include <math.h>
 int main()
 {
-	int d, x, y;
-	printf("Vvedite koordinati x\n");
-	scanf("%d", &x);
-	printf("Vvedite koordinati y\n");
-	scanf("%d", &y);
-	d = sqrt((x^2)+(y^2));
-	printf("%d, d");
-	scanf("%d, &d");
+	int d, x1,x2,y1, y2,x3,y3;
+	printf("Vvedite koordinati x1\n");
+	scanf("%d", &x1);
+	printf("Vvedite koordinati x2\n");
+	scanf("%d", &x2);
+	printf("Vvedite koordinati y1\n");
+	scanf("%d", &y1);
+	printf("Vvedite koordinati y2\n");
+	scanf("%d", &y2);
+	d = x1 - x2;
+	scanf("%d", &x3);
+	d = y1 - y2;
+	scanf("%d", &y3);
+	d = sqrt((pow (x3,2)+(pow(y3,2))));
+		printf("Dlina ravna:%d\n", d);
+	scanf("%d,&d");
 	return 0;
-	}
+
+}
